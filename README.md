@@ -21,14 +21,39 @@ Pandas – DataFrame-based log processing and analysis.
 
 Pygments – Syntax highlighting in rich-text outputs.
 
-Project Structure ```
+Project Structure 
+```
 src/
+    .gitkeep
+    .gitignore
     data/
+        feed-views.log
+        feed-views-semicolon.log
     ex00/
-    .idea/ ```
-
-data/ – Contains raw .log files for analysis.
-
-ex00/ – Example Jupyter notebook for loading and saving processed datasets.
-
-.idea/ – JetBrains IDE project settings (optional for developers using PyCharm or IntelliJ).
+        load_and_save.ipynb
+    ex01/
+        basic_operations.ipynb
+    ex02/
+        auto.json
+        preprocessing.ipynb
+        .ipynb_checkpoints/
+            preprocessing-checkpoint.ipynb
+        data/
+            auto.csv
+            .ipynb_checkpoints/
+                auto-checkpoint.csv
+    ex03/
+        selects_n_aggs.ipynb
+        .ipynb_checkpoints/
+            selects_n_aggs-checkpoint.ipynb
+    ex04/
+        enrichment.ipynb
+        fines.csv
+        owners.csv
+        .ipynb_checkpoints/
+            enrichment-checkpoint.ipynb
+    ex05/
+        optimizations.ipynb
+        .ipynb_checkpoints/
+            optimizations-checkpoint.ipynb
+```
